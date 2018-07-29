@@ -1,0 +1,53 @@
+<!-- Fig. 5.2: asign2.html     -->
+<!-- Intermediate table design -->
+
+<html xmlns = "">
+   <head>
+      <title>Tables</title>
+   </head>
+
+   <body>
+<form method = "" action="">
+  
+  <table border = "1" width = "50%" height = "50%">
+         <caption>Page 2 Table Form</caption> 
+
+
+         <tbody>
+            <tr>
+               
+               <td>F!</td>
+               <td>DD</td>
+               <td>A1</td>
+               <td rowspan="2" colspan="2"> B </td>
+
+            </tr>
+
+            <tr>
+
+               <td>IT</td>
+               <td>F2</td>
+               <td>A2</td>
+   
+            </tr>
+
+            <tr>
+               <td rowspan = "2"> CB </td>
+               <td rowspan = "2"> H </td>
+               <td rowspan = "2"> RB </td>
+               <td rowspan = "2"> M </td>
+
+            </tr>
+         </tbody>
+
+
+ 
+      
+       
+      
+
+      </table>
+
+</form>
+</body>
+</html>
