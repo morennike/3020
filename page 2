@@ -1,0 +1,127 @@
+<!-- Fig. 5.2: asign2.html     -->
+<!-- Intermediate table design -->
+
+<html xmlns = "">
+   <head>
+      <title>Tables</title>
+   </head>
+
+   <body>
+<form method = "" action="">
+  
+  <table border = "1" width = "50%" height = "50%" align ="center">
+         <caption>Page 2 Table Form</caption> 
+
+
+   <colgroup>
+
+            <!-- span attribute determines how many columns -->
+            <!-- the <col> tag affects                      -->
+            <col align = "right" span = "1" />
+         </colgroup>
+
+<thead>
+   
+
+
+         <tbody>
+            <tr>
+               
+               <td align="middle" rowspan="2" colspan="2" > <font size= "6"> The trends of weddings have begun to change, Kate Fleming is in charge of the Project Management office (PMO) of the wholesale trade company. </font> </td>
+               <td align="middle" colspan="2"> <img src = "to.jpg" width = "200" 
+                     height = "100" alt = "Picture of a City" /> </td>
+               <td align="middle" > <label>ID: 
+
+                           
+               <select name = "rating">
+                  <option selected = "selected">Zero</option>
+                  <option>Two</option>
+                  <option>Eight</option>
+                  <option>Six</option>
+                  
+               </select>
+
+            </label> </td>
+               <td align="middle"> Ajayi, Morenike </td>
+
+            </tr>
+
+            <tr>
+
+               <td align="middle" colspan="2"> <img src = "vi.jpg" width = "200" 
+                     height = "100" alt = "Picture of a Village" /> </td>
+               <td align="middle">The Outsiders</td>
+               <td align="middle"> <input type="text" name= "text">
+                  <input type="hidden">
+                  <button> buttont1 </button>
+                  <button> button2 </button>
+                  <button> buttont3 </button>
+
+               </td>
+
+   </thead>
+            </tr>
+
+            <tr>
+               <td align="middle" rowspan = "2" colspan= "2"> <img src = "mo.jpg" width = "200" 
+                     height = "160" alt = "Picture of a Mountain" />Nipika Mountain</td>
+               
+               <td align="middle" rowspan = "2" colspan= "2"> <strong>How did you get to our site?</strong><br/> <label>Social Media
+               <input name = "howtosite" type = "radio"
+                  value = "Social Media" checked = "checked" />
+            </label>
+      
+            <label>Google
+               <input name = "howtosite" type = "radio" 
+                  value = "Google" /></label> 
+
+            <label>Indeed
+               <input name = "howtosite" type = "radio" 
+                  value = "Indeed" /></label>
+
+            <label>Referal 
+               <input name = "howtosite" type = "radio" 
+                  value = "Referal" /></label>
+
+            <label>Other
+               <input name = "howtosite" type = "radio" 
+                  value = "other" /></label>
+                   </td>
+
+               <td align="middle" rowspan = "2"> <em> It's hard sometimes to say exactly what I'm worth. Sometimes even harder dealing with the hurt. To feel like no one's there during all my pain.</em> </td>
+               <td align="middle" colspan= "2" rowspan="2"> <strong>Names:</strong><br />
+
+            <label>Kate
+               <input name = "thingsliked" type = "checkbox" 
+                  value = "Kate" /></label>
+       
+            <label>John
+               <input name = "thingsliked" type = "checkbox" 
+                  value = "John" /></label>
+
+            <label>Pete
+               <input name = "thingsliked" type = "checkbox" 
+                  value = "Pete" /></label> 
+
+            <label>Jane 
+               <input name = "thingsliked" type = "checkbox" 
+                  value = "Jane" /></label>
+
+             </td>
+
+            </tr>
+         </tbody>
+
+
+         
+      
+ 
+      
+       
+      
+
+      </table>
+
+</form>
+</body>
+</html>
